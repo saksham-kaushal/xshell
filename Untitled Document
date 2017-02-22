@@ -1,0 +1,12 @@
+shell
+
+while 1
+	prompt
+	enter command
+	read command and allocate buffer accordingly
+	parse 
+	execute if builtin
+		fork to create a new process if the command is not builtin
+		execute
+		return
+
